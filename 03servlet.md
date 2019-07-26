@@ -14,12 +14,14 @@ tomcat的 web app配置文件
 
 * 2016
 
-servlet
-servlet-maping
+    servlet
+
+    servlet-maping
 
 * 2017
 
 servlet name 配置的是名称
+
 servlet <-> url  将java类转化成 网页
 
 tomcat 可以将 java 变成  网页
@@ -132,5 +134,4 @@ java中   /  代表根目录
             <!--通过 el表达式   ${}来读取数据，由于它具有严格的作用域限制，所以 通过requestScope来调用-->
         </body>
     </html>
-
     ```
